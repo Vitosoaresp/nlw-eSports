@@ -98,7 +98,7 @@ export function CreateAdModal() {
                   <Input type="number" name="yearsPlaying" id="yearsPlaying" placeholder="tudo bem ser ZERO" />
                 </div>
                 <div className='flex flex-col gap-2'>
-                  <label htmlFor="discord">Qual ser Discord?</label>
+                  <label htmlFor="discord">Qual seu Discord?</label>
                   <Input name="discord" id="discord" placeholder="Usuario#0000" />
                 </div>
               </div>
