@@ -2,6 +2,8 @@
 
   <img src="web/public/nlw-2.png" />
 
+  > Trata-se de  uma aplicação onde é possivel buscar duos para games e criar anúncios para um game especifico!
+
 ## Técnologias usadas
 
 Front-end:
@@ -19,6 +21,12 @@ Back-end:
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
+Mobile:
+> Desenvolvido usando: React Native, Expo, TypeScript, phosphor-react-native
+
+![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 ## Instalando Dependências
 
@@ -30,6 +38,11 @@ npm install
 > Frontend
 ```bash
 cd web/
+npm install
+``` 
+> Mobile
+```bash
+cd mobile/
 npm install
 ``` 
 ## Executando aplicação
@@ -45,6 +58,13 @@ npm install
 
   ```
     cd web/ && npm run dev
+  ```
+* Para rodar o Mobile:
+
+  > Para o mobile funcionar corretamente é necessário que o back-end esteja rodando!
+
+  ```
+    cd mobile/ && npm start
   ```
 
 ## Executando Testes
